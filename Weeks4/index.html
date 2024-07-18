@@ -1,0 +1,27 @@
+<html >
+    <script>
+        async function populateDiv(){
+
+            const p = document.getElementById("p").value;
+            const r = document.getElementById("r").value;
+            const t = document.getElementById("t").value;
+
+
+            const element = document.getElementById("final")
+            element.innerHTML = parseInt(a)+parseInt(b);
+        }
+    </script>
+<body>
+
+    
+    
+    <input id="p" type="text" placeholder="princle amount"> <br>
+
+    <input id="r" type="text" placeholder="Rate"> <br>
+
+    <input id="t" type="text" placeholder="time"> <br>
+
+    <button onclick="populateDiv()">Calculate</button>
+    <div id="final"></div>
+</body>
+</html>
